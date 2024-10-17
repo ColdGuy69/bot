@@ -62,9 +62,9 @@ client.on("guildMemberAdd", async(member) => {
         .setColor("#000000")
         .setTitle("Welcome! :smile:")
         .setDescription(
-            `Welcome to the server, ${member}! Please star the repo on [GitHub](
-                https://github.com/consumet/consumet-api
-            )! :star: \n Also, if you do not star the repo, you will be **harassed** by everyone on the server!. But seriously, star the repo! It helps a lot!`
+            `Welcome to the server, ${member}! Bot created by [Dash](
+                https://github.com/1nOnlyDash
+            )! :star: \n Follow me on my socials it helps a lot!`
         );
     member.guild.channels.cache.get(channel.id).send({ embeds: [embed] });
 });
